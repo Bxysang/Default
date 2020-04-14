@@ -4,3 +4,14 @@ HOST,ocsp.int-x3.letsencrypt.org,REJECT
 HOST,world-gen.g.aaplimg.com,REJECT
 HOST,mesu.apple.com,REJECT
 HOST,gdmf.apple.com,REJECT
+host-keyword, mermaid.ximalaya.com, reject
+host-keyword, vod.xmcdn.com, reject
+host-keyword, livewsa.ximalaya.com, reject
+host-keyword, livebs.ximalaya.com, reject
+host-keyword, hybrid.ximalaya.com, reject
+host-keyword, live.ximalaya.com, reject
+host-keyword, fdfs.xmcdn.com, reject
+host-keyword, msstatic.com, direct
+host-suffix, acgbox.top, proxy
+host-suffix, 25mao.com, direct
+host, tweakpush.netskao.com, reject
