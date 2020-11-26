@@ -1,4 +1,3 @@
-DOMAIN-SUFFIX,api-v5.cercube.com,REJECT
 HOST,ocsp.apple.com,REJECT
 HOST,ocsp.int-x3.letsencrypt.org,REJECT
 HOST,world-gen.g.aaplimg.com,REJECT
@@ -15,3 +14,29 @@ host-keyword, msstatic.com, direct
 host-suffix, acgbox.top, proxy
 host-suffix, 25mao.com, direct
 host, tweakpush.netskao.com, reject
+host-keyword, treecard.org, direct
+host-keyword, mac-torrent-download.net, direct
+host-keyword, netmarble.com.cn, proxy
+host-keyword, live.ximalaya.com, reject
+host-keyword, ulogs.umeng.com, reject
+host-keyword, gslbali.ximalaya.com, reject
+host-keyword, adsebs.ximalaya.com, reject
+host-keyword, vod.xmcdn.com, reject
+host, gslbtx.ximalaya.com, reject
+host-keyword, vip-collector.ximalaya.com, reject
+host-keyword, shijie163.com, direct
+host-keyword, 3000ll.com, direct
+host-keyword, 99jlsf.com, direct
+host-keyword, zxdhsf.com, direct
+host, wakamoment.ga, proxy
+host, netease.im, proxy
+host-keyword, ar.ximalaya.com, reject
+host-keyword, mpaywsa.ximalaya.com, direct
+host-keyword, dubvod.tx.xmcdn.com, reject
+host-keyword, v2ex.com, direct
+host-keyword, 51688.cc, reject
+host-keyword, circle-cdn.huami.com, reject
+host-keyword, api-analytics-test.huami.com, reject
+host-keyword, api-mifit-cn.huami.com, proxy
+host-keyword, account-cn.huami.com, reject
+host-keyword, api-aos-cnbj6.huami.com, reject
