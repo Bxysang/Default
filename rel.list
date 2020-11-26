@@ -1,0 +1,47 @@
+###
+^http:\/\/.+\.xmcdn\.com\/.+\.gif url reject
+^http:\/\/.+\.xmcdn\.com\/.+\.jpeg url reject
+^http:\/\/.+\.xmcdn\.com\/.+\.jpg url reject
+^http:\/\/.+\.xmcdn\.com\/.+\.png url reject
+^http:\/\/mobile\.ximalaya\.com\/subscribe\/ url reject
+^https:\/\/m\.ximalaya\.com\/anchor-sell\/fans\/track\/ url reject
+^http:\/\/.+\/minor-protection-web\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/mobile-ebook\/ url reject-200
+^http:\/\/mobilehera\.ximalaya\.com\/mobile-track\/ url reject-200
+^http:\/\/mobwsa\.ximalaya\.com\/comment-mobile\/ url reject-200
+^http:\/\/.+\/chaos-notice-web\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/mobile\/track1\/ - reject-200
+^http:\/\/.+\/barrage-mobile\/ url reject-200
+^http:\/\/m\.ximalaya\.com\/community\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/mobile-track\/playpage\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/comment-mobile\/v1\/track\/comment\/ url reject-200
+^http:\/\/search\.ximalaya\.com\/searchConfig\/ url reject-200
+^http:\/\/search\.ximalaya\.com\/hotWordV2\/ url reject-200
+^http:\/\/search\.ximalaya\.com\/hotWordBillboardCategory\?layout=hotTab url reject-200
+^http:\/\/search\.ximalaya\.com\/hotWordBillboard\/list\/ url reject-200
+^http:\/\/mobwsa\.ximalaya\.com\/subscribe\/v2\/subscribe\/recommend\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/nexus\/v4\/stream\/pull\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/discovery-stream-mobile\/discoveryPage\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/ugc-web\/stream\/video\/v1\/recommend\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/chaos-notice-web\/v1\/tyq\/unreadcount\/ url reject-200
+^http:\/\/mobile\.ximalaya\.com\/mobile\/v1\/no_read\/ url reject-200
+https://w.mail.qq.com/cgi-bin/readtemplate url script-response-body qqmail1.js
+
+# 更换 User-Agent 以提升体验。(Quantumult X Edition)
+# 若有其余推荐 User-Agent 及需要替换的网页可提 issue 反馈。
+# zZPiglet 自用
+
+# 百度（全站替换为手机百度 Quark 的 User-Agent）
+^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url request-header (\r\n)User-Agent:.+iPhone.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/16C50 Quark/604.1 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)$2
+
+# 知乎（部分替换为手机百度 Quark 的 User-Agent）
+^https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
+# 知乎网页直接看
+^https://www\.zhihu\.com/question/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
+^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
+# 知乎网页去广告&推荐列表
+https://www\.zhihu\.com/api/v4/questions/\d+/related-readings url reject-200
+https://www\.zhihu\.com/api/v4/answers/\d+/related-readings url reject-200
+https://www\.zhihu\.com/api/v4/hot_recommendation url reject-200
+https://www\.zhihu\.com/commercial_api/banners_v3/mobile_banner url reject-200
+https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
