@@ -16,7 +16,6 @@ host-keyword, live.ximalaya.com, reject
 host-keyword, ulogs.umeng.com, reject
 host-keyword, gslbali.ximalaya.com, reject
 host-keyword, adsebs.ximalaya.com, reject
-host-keyword, vod.xmcdn.com, reject
 host, gslbtx.ximalaya.com, reject
 host-keyword, vip-collector.ximalaya.com, reject
 host-keyword, shijie163.com, direct

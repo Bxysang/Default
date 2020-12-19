@@ -1,8 +1,5 @@
 # 喜马拉雅
-^http:\/\/.+\.xmcdn\.com\/.+\.gif url reject
-^http:\/\/.+\.xmcdn\.com\/.+\.jpeg url reject
-^http:\/\/.+\.xmcdn\.com\/.+\.jpg url reject
-^http:\/\/.+\.xmcdn\.com\/.+\.png url reject
+^http:\/\/.+\.xmcdn\.com\/.+\.(gif|jpg|jpeg|png) url reject
 ^http:\/\/mobile\.ximalaya\.com\/subscribe\/ url reject
 ^https:\/\/m\.ximalaya\.com\/anchor-sell\/fans\/track\/ url reject
 ^http:\/\/.+\/minor-protection-web\/ url reject-200
