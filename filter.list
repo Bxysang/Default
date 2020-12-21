@@ -2,7 +2,6 @@ host, mermaid.ximalaya.com, reject
 host, vod.xmcdn.com, reject
 host, livewsa.ximalaya.com, reject
 host, livebs.ximalaya.com, reject
-host, hybrid.ximalaya.com, reject
 host, live.ximalaya.com, reject
 host, fdfs.xmcdn.com, reject
 host, msstatic.com, direct
