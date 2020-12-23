@@ -1,27 +1,27 @@
 # 喜马拉雅
-^http:\/\/.+\.xmcdn\.com\/.+\.(gif|jpg|jpeg|png) url reject
-^http:\/\/mobile\.ximalaya\.com\/subscribe\/ url reject
-^https:\/\/m\.ximalaya\.com\/anchor-sell\/fans\/track\/ url reject
-^http:\/\/.+\/minor-protection-web\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/mobile-ebook\/ url reject-200
-^http:\/\/mobilehera\.ximalaya\.com\/mobile-track\/ url reject-200
-^http:\/\/mobwsa\.ximalaya\.com\/comment-mobile\/ url reject-200
-^http:\/\/.+\/chaos-notice-web\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/mobile\/track1\/ - reject-200
-^http:\/\/.+\/barrage-mobile\/ url reject-200
-^http:\/\/m\.ximalaya\.com\/community\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/mobile-track\/playpage\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/comment-mobile\/v1\/track\/comment\/ url reject-200
-^http:\/\/search\.ximalaya\.com\/searchConfig\/ url reject-200
-^http:\/\/search\.ximalaya\.com\/hotWordV2\/ url reject-200
-^http:\/\/search\.ximalaya\.com\/hotWordBillboardCategory\?layout=hotTab url reject-200
-^http:\/\/search\.ximalaya\.com\/hotWordBillboard\/list\/ url reject-200
-^http:\/\/mobwsa\.ximalaya\.com\/subscribe\/v2\/subscribe\/recommend\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/nexus\/v4\/stream\/pull\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/discovery-stream-mobile\/discoveryPage\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/ugc-web\/stream\/video\/v1\/recommend\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/chaos-notice-web\/v1\/tyq\/unreadcount\/ url reject-200
-^http:\/\/mobile\.ximalaya\.com\/mobile\/v1\/no_read\/ url reject-200
+
+^http:\/\/.+\/minor-protection-web\/ url reject
+^http:\/\/.+\/barrage-mobile\/ url reject
+^http(s):\/\/.+\.xmcdn\.com\/.+\.(gif|jpg|jpeg|png) url reject
+^http(s):\/\/.+\.ximalaya\.com\/subscribe\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/mobile-ebook\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/mobile-track\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/comment-mobile\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/mobile\/track1\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/community\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/chaos-notice-web\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/searchConfig\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/hotWord url reject
+^http(s):\/\/.+\.ximalaya\.com\/mobile\/resume$ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/fans\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/stream\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/discoveryPage\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/video\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/no_read\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/playpage\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/bluetooth\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/customCategories\/ url reject
+^http(s):\/\/.+\.ximalaya\.com\/.+\/skin\/ url reject
 
 # 知乎网页去广告&推荐列表
 https://www\.zhihu\.com/api/v4/questions/\d+/related-readings url reject-200
