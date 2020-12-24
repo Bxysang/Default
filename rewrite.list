@@ -6,7 +6,7 @@
 ^http:\/\/.+\.ximalaya\.com\/subscribe\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/mobile-ebook\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/mobile-track\/ url reject
-^http:\/\/.+\.ximalaya\.com\/comment-mobile\/ url reject
+-^http:\/\/.+\.ximalaya\.com\/comment-mobile\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/mobile\/track1\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/community\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/chaos-notice-web\/ url reject
