@@ -2,7 +2,7 @@
 
 ^http:\/\/.+\/minor-protection-web\/ url reject
 ^http:\/\/.+\/barrage-mobile\/ url reject
-^http:\/\/.+\.xmcdn\.com\/.+\.(gif|jpg|jpeg|png) url reject
+^http:\/\/.+\.xmcdn\.com\/.+\.(gif|jpg|jpeg|png|JPG) url reject
 ^http:\/\/.+\.ximalaya\.com\/subscribe\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/mobile-ebook\/ url reject
 ^http:\/\/.+\.ximalaya\.com\/mobile-track\/ url reject
